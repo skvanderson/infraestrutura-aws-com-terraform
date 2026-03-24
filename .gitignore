@@ -1,0 +1,21 @@
+# Terraform: state e artefatos locais (não enviar para outra conta/máquina)
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/lambda_scheduler.zip
+
+# Variáveis locais (podem conter região/conta; use terraform.tfvars.example como base)
+terraform/terraform.tfvars
+
+# Saída de teste da Lambda (contém dados da conta)
+out.json
+
+# Sistema e IDE
+.DS_Store
+*.swp
+*.swo

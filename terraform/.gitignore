@@ -1,0 +1,8 @@
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+lambda_scheduler.zip
+*.zip
+.terraform.tfstate.lock.info
