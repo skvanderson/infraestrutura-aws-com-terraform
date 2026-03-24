@@ -1,0 +1,6 @@
+{
+  "name": "portfolio-cloud-backend",
+  "version": "1.0.0",
+  "description": "API de exemplo - Backend em container (Desafio AWS)",
+  "main": "server.js"
+}
